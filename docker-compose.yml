@@ -3,7 +3,7 @@ services:
       build: .
       container_name: app
       ports:
-       - "1234:5050"
+       - "443:8080"
       links:
        - db
    db:
