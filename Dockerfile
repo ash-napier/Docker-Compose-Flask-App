@@ -10,4 +10,4 @@ RUN pip install -r /home/requirements.txt
 COPY WEB_APP Mail_App
 WORKDIR Mail_App
 ENTRYPOINT ["python3", "app.py"]
-EXPOSE 3000 5050
+EXPOSE 3000 8080
